@@ -12,10 +12,8 @@ All the class code is in [class_code.ipynb](/'class_code.inynb') class code file
 
 #### Week 1 Assignment 1
 **Problem Statement:**
-    - Write code using find() and string slicing (see section 6.10) to extract the
-    number at the end of the line below. 
-    - Convert the extracted value to a floating
-    point number and print it out.
+- Write code using find() and string slicing (see section 6.10) to extract the number at the end of the line below. 
+- Convert the extracted value to a floating point number and print it out.
 **Solution:**
 ```python
 text = "X-DSPAM-Confidence:    0.8475"
@@ -24,10 +22,10 @@ print(float(numf))
 ```
 #### Week 3 Assignment # 1
 **Problem Statement:** 
-    - Write a program that prompts for a file name, 
-    - then opens that file and reads through the file, 
-    - and print the contents of the file in upper case. Use the file words.txt to produce   the output below.
-    - You can download the sample data at http://www.pythonlearn.com/code/words.txt
+- Write a program that prompts for a file name, 
+- then opens that file and reads through the file, 
+- and print the contents of the file in upper case. Use the file words.txt to produce   the output below.
+- You can download the sample data at http://www.pythonlearn.com/code/words.txt
 **Solution:**
 ```python
 def inputCheck():
@@ -46,9 +44,9 @@ print(readable_txt.upper())
 ```
 #### Week 3 Assignment # 2
 **Problem Statement:**
-    - Write a program that prompts for a file name, then opens that file and reads through the file, looking for lines of the form: ***X-DSPAM-Confidence:    0.8475***
-    - Count these lines and extract the floating point values from each of the lines and compute the average of those values and produce an output as shown below. 
-    - Do not use the sum() function or a variable named sum in your solution.
+- Write a program that prompts for a file name, then opens that file and reads through the file, looking for lines of the form: ***X-DSPAM-Confidence:    0.8475***
+- Count these lines and extract the floating point values from each of the lines and compute the average of those values and produce an output as shown below. 
+- Do not use the sum() function or a variable named sum in your solution.
 You can download the sample data at http://www.pythonlearn.com/code/mbox-short.txt when you are testing below enter mbox-short.txt as the file name.
 **Solution:**
 ```python
