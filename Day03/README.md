@@ -105,6 +105,7 @@ for line in file_handle:
         time = msg_pieces[5].split(":")
         hour_count[time[0]] = hour_count.get(time[0],0) + 1
 
-hr_tuple_rev = sorted( [ (v,k) for (k,v) in hour_count.items() ] , reverse= True )
-hr_tuple = [ (k,v) for (v,k) in hr_tuple_rev ]
+hr_tuple = sorted([ (k,v) for (k,v) in hour_count.items() ])
+for k,v in hr_tuple:
+    print(k,v)
 ```
