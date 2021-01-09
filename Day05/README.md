@@ -37,16 +37,8 @@ When a computer is runing multiple appications. Just as **IP ADDRESS** identifie
 ### Create Socket in python
 We can create a socket in 3 lines in python.
 ```python
-
-```
-## Assignment # xx
-### **Problem Statement:**
-- 
-### **Solution:**
-```python
 #Sockets in python
 import socket
 mysock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 mysock.connect(('data.pr4e.org/',80))
 ```
-----
