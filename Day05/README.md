@@ -32,7 +32,7 @@ A connection between two computers uses a socket.
 When a computer is runing multiple appications. Just as **IP ADDRESS** identifies a computer, the network port identifies the application/services running on that computer.
 ![Connection between client and server](img/conection.png)
 **Common TCP Ports**
-![Common TCP Ports](common_tcp.png)
+![Common TCP Ports](img/common_tcp.png)
 
 ### Create Socket in python
 We can create a socket in 3 lines in python.
