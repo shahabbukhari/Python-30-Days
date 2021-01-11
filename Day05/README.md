@@ -12,7 +12,7 @@ All the class code is in [Class_Code.ipynb]('/Class_Code.ipynb') class code file
 
 # Networked Technology
 ## TCP/IP
-**TCP/IP** stands for *Transmission Control Protocol/Internet Protocol*. TCP/IP is a set of standardized rules that allow computers to communicate on a network such as the internet.
+**TCP/IP** stands for *Transmission Control Protocol/Internet Protocol*. its on a transport layer. TCP/IP is a set of standardized rules that allow computers to communicate on a network such as the internet.
 ![TCP/IP](img/tcp_ip.png)
 
 ### How do TCP and IP differ?
