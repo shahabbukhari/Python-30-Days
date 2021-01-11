@@ -5,7 +5,7 @@ Today i am learning from python for everybody |  Using Python to Access Web Data
 What i **learn** Today:
 - What is Protocol
 - HTTP
-- 
+- Python Requests library
 
 # Using Python to Access Web Data
 All the class code is in [Class_Code.ipynb]('/Class_Code.ipynb') .class code file is a notebook file it also includes the **assignments** with output.
